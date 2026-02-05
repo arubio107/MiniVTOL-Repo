@@ -1,0 +1,19 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+"C1,C2,C3,C4,C5,C6,C9,C13",8,0.1 uF,,,,,~
+C7,1,100 uF,,,,,~
+"C8,C10,C11,C12,C15,C16",6,1 uF,,,,,~
+C14,1,47 uF,,,,,~
+"CR1,CR2,CR3,CR5",4,PMEG2010AEB,,,,SOD523_NXP,PMEG2010AEB
+J1,1,S2B-PH-K-SLFSN,,,,CONN_S2B-PH-K-S_JST,S2B-PH-K-SLFSN
+J2,1,USB4105-GF-A,,,,USB4105_GCT,USB4105-GF-A
+"M1,M2,M3,M4",4,Motor_DC,,,,,~
+"R1,R2",2,220,,,,,~
+"R3,R4",2,5.1K,,,,,~
+"R5,R6",2,4.7K,,,,,~
+"R7,R8",2,10K,,,,,~
+"R9,R10",2,22,,,,,~
+U1,1,ATSAMD21G18A-A,,,,Package_QFP:TQFP-48_7x7mm_P0.5mm,http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+"U2,U3",2,IRLML2502TRPBF,,,,PG-TO23-3_INF,https://www.infineon.com/dgdl/irlml2502pbf.pdf?fileId=5546d462533600a401535668048e2606
+U6,1,BMI323,,,,BMI323_BOS,BMI323
+U7,1,XC6206P332MR-G,,,,SOT-23_TOR,XC6206P332MR-G
+U8,1,TB6612FNG_C_8_EL,,,,SSOP24-P-300-0p65A_TOS,TB6612FNG_C_8_EL
