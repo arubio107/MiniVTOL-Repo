@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BMI323 (IMU)")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BMI323_IMU/KiCADv6/BMI323 (IMU).kicad_sym")(options "")(descr ""))
+  (lib (name "PMEG2010AEB (DIODE)")(type "KiCad")(uri "${KIPRJMOD}/Libraries/DIODE/KiCADv6/PMEG2010AEB (DIODE).kicad_sym")(options "")(descr ""))
+  (lib (name "S2B-PH-K-S (JST)")(type "KiCad")(uri "${KIPRJMOD}/Libraries/JST Connector/KiCADv6/S2B-PH-K-S (JST).kicad_sym")(options "")(descr ""))
+  (lib (name "TB6612FNG,C,8,EL (MOTOR DRIVER)")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MOTOR DRIVER/KiCADv6/TB6612FNG,C,8,EL (MOTOR DRIVER).kicad_sym")(options "")(descr ""))
+  (lib (name "B3U-1000P")(type "KiCad")(uri "${KIPRJMOD}/Libraries/B3U-1000P (Button)/KiCADv6/B3U-1000P.kicad_sym")(options "")(descr ""))
+)
