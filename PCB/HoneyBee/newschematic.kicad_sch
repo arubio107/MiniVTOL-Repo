@@ -7160,7 +7160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-6_TabPin3"
 			(at 115.57 43.815 0)
 			(effects
 				(font
