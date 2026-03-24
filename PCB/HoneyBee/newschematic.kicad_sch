@@ -2844,24 +2844,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
+			(property "Reference" "U2"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TPS73018DBV"
-				(at 1.27 6.35 0)
+			(property "Value" "TPS73733DCQR"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-6_TabPin3"
 				(at 0 8.255 0)
 				(effects
 					(font
@@ -2871,7 +2870,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps730.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps737.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1771896635102&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftps737"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -2881,6 +2880,24 @@
 				)
 			)
 			(property "Description" "Low Noise, High PSRR, 200mA Low Drop 1.8V Regulator, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/texas-instruments/TPS73733DCQR/1698963"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit Price" "1.67"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2949,7 +2966,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2967,7 +2984,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2985,7 +3002,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3400,322 +3417,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4288,6 +3989,293 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:Q_NMOS_GSD"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_GSD_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -4690,16 +4678,6 @@
 		)
 		(uuid "55447abf-2b8a-46c5-a934-5b8ebfc71fed")
 	)
-	(text "VBatt"
-		(exclude_from_sim no)
-		(at 237.236 35.306 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "84b1d631-cb9c-4443-96cb-b4e2f3196ec3")
-	)
 	(text "Magnetic Actuator Control"
 		(exclude_from_sim no)
 		(at 155.194 171.704 0)
@@ -4753,21 +4731,6 @@
 		(uuid "10a2fc45-883d-46ea-a2ed-65e14196d0d4")
 	)
 	(junction
-<<<<<<< Updated upstream
-		(at 271.78 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "110979f4-189c-4be5-b9c2-0581df1f63ed")
-	)
-	(junction
-		(at 370.84 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12ee4c4d-46f3-446a-bba2-9110db91aa57")
-	)
-	(junction
-=======
->>>>>>> Stashed changes
 		(at 274.32 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4780,7 +4743,7 @@
 		(uuid "2022a41f-bad8-42c9-8b27-4ec0f55a94fe")
 	)
 	(junction
-		(at 129.54 158.75)
+		(at 130.81 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2173923a-6617-4b54-adad-db7a2065b7d3")
@@ -4792,7 +4755,7 @@
 		(uuid "27b71a4c-3dca-48d3-bb63-05f770158e9d")
 	)
 	(junction
-		(at 119.38 151.13)
+		(at 120.65 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b7edb4a-ad38-4614-b392-e36560e93be4")
@@ -4804,21 +4767,6 @@
 		(uuid "2d10cbee-ebc3-4bc3-b835-ec0372b2d3f6")
 	)
 	(junction
-<<<<<<< Updated upstream
-		(at 383.54 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2eaa8352-910a-493d-a727-9e2b2e2c324a")
-	)
-	(junction
-		(at 256.54 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36799ee4-72d6-4c28-b1a3-a06ee3dc313a")
-	)
-	(junction
-=======
->>>>>>> Stashed changes
 		(at 292.1 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4843,7 +4791,7 @@
 		(uuid "42cdb8b5-7563-430c-be12-16c6fab5555b")
 	)
 	(junction
-		(at 119.38 163.83)
+		(at 120.65 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4427c210-9844-4fff-9c39-eff55b9d384e")
@@ -4861,6 +4809,12 @@
 		(uuid "4a25fed4-50a1-4270-b420-b92aa731d65a")
 	)
 	(junction
+		(at 339.09 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aa64039-d480-4d45-926f-1f4396eb37e2")
+	)
+	(junction
 		(at 163.83 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4873,15 +4827,6 @@
 		(uuid "4e30c0bc-31aa-4e0f-8f90-5573d8733b19")
 	)
 	(junction
-<<<<<<< Updated upstream
-		(at 383.54 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fa3c331-f6ae-4a8c-a8aa-ba378b690dd9")
-	)
-	(junction
-		(at 119.38 135.89)
-=======
 		(at 134.62 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4889,7 +4834,6 @@
 	)
 	(junction
 		(at 120.65 135.89)
->>>>>>> Stashed changes
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5306d56c-a276-4121-8eb0-b6ee2bb10a29")
@@ -5015,18 +4959,6 @@
 		(uuid "b18a0dbf-cb70-4d94-a0aa-13c1189525e2")
 	)
 	(junction
-		(at 339.09 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3ab32a1-1858-4cca-a1c9-2bce42848015")
-	)
-	(junction
-		(at 370.84 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c43177a7-2c3d-46cd-abf6-201c4b739e13")
-	)
-	(junction
 		(at 133.35 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5147,7 +5079,7 @@
 		(uuid "f7515ba3-6613-41e9-be4c-cf34f46b8953")
 	)
 	(junction
-		(at 119.38 148.59)
+		(at 120.65 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9e470e9-8aec-4a06-b8a2-008195e9be67")
@@ -5292,7 +5224,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 148.59) (xy 119.38 148.59)
+			(xy 101.6 148.59) (xy 120.65 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5332,7 +5264,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 114.3) (xy 383.54 123.19)
+			(xy 383.54 114.3) (xy 383.54 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5392,7 +5324,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 74.93) (xy 370.84 83.82)
+			(xy 370.84 74.93) (xy 370.84 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5512,17 +5444,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 83.82) (xy 383.54 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b23ba8-1500-4db7-b6ef-621b2329361e")
-	)
-	(wire
-		(pts
-			(xy 370.84 114.3) (xy 370.84 123.19)
+			(xy 370.84 114.3) (xy 370.84 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5552,7 +5474,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 163.83) (xy 119.38 163.83)
+			(xy 101.6 163.83) (xy 120.65 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5562,13 +5484,13 @@
 	)
 	(wire
 		(pts
-			(xy 381 123.19) (xy 383.54 123.19)
+			(xy 133.35 148.59) (xy 120.65 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "201a0324-cfd4-473d-b488-55fbe995efc2")
+		(uuid "1ef32ffe-9cb7-4e3b-8c47-843242e95780")
 	)
 	(wire
 		(pts
@@ -5592,19 +5514,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 100.33 135.89) (xy 119.38 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "221f8371-7cd8-4328-af48-16fbd82aec6b")
-	)
-	(wire
-		(pts
-=======
->>>>>>> Stashed changes
 			(xy 370.84 71.12) (xy 370.84 74.93)
 		)
 		(stroke
@@ -5635,16 +5544,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 123.19) (xy 370.84 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a8cb080-ea58-4070-9671-3ed50ca157aa")
-	)
-	(wire
-		(pts
 			(xy 83.82 121.92) (xy 175.26 121.92)
 		)
 		(stroke
@@ -5662,16 +5561,6 @@
 			(type default)
 		)
 		(uuid "2b44fced-9506-401c-89b2-bbf96a32648d")
-	)
-	(wire
-		(pts
-			(xy 134.62 148.59) (xy 133.35 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b57608e-cc8e-4001-bc08-adc725f02717")
 	)
 	(wire
 		(pts
@@ -6125,9 +6014,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 129.54 156.21) (xy 129.54 158.75)
-=======
 			(xy 267.97 162.56) (xy 278.13 162.56)
 		)
 		(stroke
@@ -6149,7 +6035,6 @@
 	(wire
 		(pts
 			(xy 130.81 156.21) (xy 130.81 158.75)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -6259,23 +6144,13 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 123.19) (xy 370.84 135.89)
+			(xy 101.6 135.89) (xy 120.65 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73997317-bb38-4aa2-8778-ab18ff36c2cf")
-	)
-	(wire
-		(pts
-			(xy 339.09 119.38) (xy 345.44 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "739fa593-93b8-4c8b-abcc-548766fe161d")
+		(uuid "74c97cae-c1e9-40fa-88de-18a1c34792e1")
 	)
 	(wire
 		(pts
@@ -6306,16 +6181,6 @@
 			(type default)
 		)
 		(uuid "760d43de-fee3-4d69-9025-c5181b14849b")
-	)
-	(wire
-		(pts
-			(xy 133.35 163.83) (xy 119.38 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76edd1ea-ae51-4593-8bd7-708f32ef0708")
 	)
 	(wire
 		(pts
@@ -6366,6 +6231,16 @@
 			(type default)
 		)
 		(uuid "7cbcaa55-bb7e-48d0-ada0-2d7d62d822ed")
+	)
+	(wire
+		(pts
+			(xy 134.62 151.13) (xy 133.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df4909e-6c7c-4939-b911-73ac7b51fdf6")
 	)
 	(wire
 		(pts
@@ -6429,7 +6304,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 158.75) (xy 134.62 158.75)
+			(xy 130.81 158.75) (xy 134.62 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6446,16 +6321,6 @@
 			(type default)
 		)
 		(uuid "83d30303-f2c1-42f3-8851-dccaa6256e0f")
-	)
-	(wire
-		(pts
-			(xy 370.84 83.82) (xy 370.84 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83e874e9-311b-48d1-873d-a3e33184dda0")
 	)
 	(wire
 		(pts
@@ -6519,9 +6384,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 269.24 193.04) (xy 269.24 180.34)
-=======
 			(xy 339.09 119.38) (xy 345.44 119.38)
 		)
 		(stroke
@@ -6533,7 +6395,6 @@
 	(wire
 		(pts
 			(xy 241.3 193.04) (xy 241.3 180.34)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -6583,7 +6444,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 74.93) (xy 383.54 83.82)
+			(xy 383.54 74.93) (xy 383.54 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6823,16 +6684,6 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 123.19) (xy 383.54 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae6cb497-ba9e-4176-8a3b-6b6753ccbc11")
-	)
-	(wire
-		(pts
 			(xy 153.67 49.53) (xy 163.83 49.53)
 		)
 		(stroke
@@ -6863,19 +6714,12 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 133.35 135.89) (xy 134.62 135.89)
-=======
 			(xy 241.3 152.4) (xy 256.54 152.4)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< Updated upstream
-		(uuid "b1f87e3d-ae40-45c8-91ce-ea3d67615bea")
-=======
 		(uuid "b166f0ab-bb2c-4e57-96f5-514f10bef225")
 	)
 	(wire
@@ -6887,7 +6731,6 @@
 			(type default)
 		)
 		(uuid "b202dacb-7deb-4afb-8fa7-ef480244c5f0")
->>>>>>> Stashed changes
 	)
 	(wire
 		(pts
@@ -6901,13 +6744,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 151.13) (xy 134.62 151.13)
+			(xy 133.35 163.83) (xy 120.65 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4e3a396-4bd7-4fcb-8e80-2b92a2656970")
+		(uuid "b5969cc3-ffa3-4820-9898-8dd3a25f6f7c")
 	)
 	(wire
 		(pts
@@ -6968,16 +6811,6 @@
 			(type default)
 		)
 		(uuid "be71930b-40cc-4002-a7c4-ef502acd5720")
-	)
-	(wire
-		(pts
-			(xy 373.38 83.82) (xy 370.84 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf435bce-564f-4d4c-a9e1-8370e9cb7ec4")
 	)
 	(wire
 		(pts
@@ -7121,6 +6954,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 135.89) (xy 133.35 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3976278-445a-453a-a796-ef9b7d181e8e")
+	)
+	(wire
+		(pts
 			(xy 125.73 57.15) (xy 129.54 57.15)
 		)
 		(stroke
@@ -7201,7 +7044,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 148.59) (xy 119.38 148.59)
+			(xy 134.62 148.59) (xy 133.35 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7211,9 +7054,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 100.33 151.13) (xy 119.38 151.13)
-=======
 			(xy 241.3 180.34) (xy 284.48 180.34)
 		)
 		(stroke
@@ -7225,7 +7065,6 @@
 	(wire
 		(pts
 			(xy 101.6 151.13) (xy 120.65 151.13)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -7385,16 +7224,6 @@
 	)
 	(wire
 		(pts
-			(xy 381 83.82) (xy 383.54 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e85df927-f6e0-4e72-8cf0-874ec4645879")
-	)
-	(wire
-		(pts
 			(xy 175.26 176.53) (xy 83.82 176.53)
 		)
 		(stroke
@@ -7412,6 +7241,16 @@
 			(type default)
 		)
 		(uuid "e992c06a-d1a7-4a39-b354-362011d10e03")
+	)
+	(wire
+		(pts
+			(xy 134.62 156.21) (xy 130.81 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9da903c-af5b-4d4c-9da3-27c9444091c4")
 	)
 	(wire
 		(pts
@@ -7475,7 +7314,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 135.89) (xy 133.35 135.89)
+			(xy 120.65 135.89) (xy 133.35 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7515,7 +7354,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 151.13) (xy 133.35 151.13)
+			(xy 120.65 151.13) (xy 133.35 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7535,7 +7374,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 156.21) (xy 129.54 156.21)
+			(xy 135.89 156.21) (xy 134.62 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7623,8 +7462,6 @@
 		)
 		(uuid "ffd4862e-ee70-4973-8816-017c54e54410")
 	)
-<<<<<<< Updated upstream
-=======
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
@@ -7780,7 +7617,6 @@
 			)
 		)
 	)
->>>>>>> Stashed changes
 	(symbol
 		(lib_id "B3U-1000P:B3U-1000P")
 		(at 232.41 152.4 270)
@@ -8274,7 +8110,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 119.38 156.21 0)
+		(at 120.65 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8282,7 +8118,7 @@
 		(dnp no)
 		(uuid "168d5972-d07d-478f-9a98-d95293eb9b9b")
 		(property "Reference" "M4"
-			(at 111.506 158.75 0)
+			(at 112.776 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8126,7 @@
 			)
 		)
 		(property "Value" "Motor_DC"
-			(at 111.506 156.21 0)
+			(at 112.776 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +8134,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm"
-			(at 119.38 158.496 0)
+			(at 120.65 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +8143,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.amazon.com/Electromagnetic-actuator-Magnetic-Ornithopter-Airplanes/dp/B075KKWM8G"
-			(at 119.38 158.496 0)
+			(at 120.65 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +8152,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 119.38 156.21 0)
+			(at 120.65 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8161,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 119.38 156.21 0)
+			(at 120.65 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,7 +8170,7 @@
 			)
 		)
 		(property "Unit Price" "6"
-			(at 119.38 156.21 0)
+			(at 120.65 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9461,91 +9297,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 377.19 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49b5e1b7-1eff-44fd-a300-8b84e4ca636a")
-		(property "Reference" "C5"
-			(at 377.19 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1 uF"
-			(at 377.19 119.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 381 122.2248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 377.19 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 377.19 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
-			(at 377.19 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.08"
-			(at 377.19 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e5e0340-5178-4b7f-a314-dfb9e1bb9fb1")
-		)
-		(pin "2"
-			(uuid "e9f07556-a180-4cf4-ba7d-334d29ee31b8")
-		)
-		(instances
-			(project "ME461_New"
-				(path "/bff9adb3-db9a-4aad-9d41-009c862a6453"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PMEG2010AEB (DIODE):PMEG2010AEB")
 		(at 382.27 110.49 180)
 		(unit 1)
@@ -9719,8 +9470,6 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
-=======
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 350.52 119.38 0)
 		(unit 1)
@@ -9793,7 +9542,6 @@
 		)
 	)
 	(symbol
->>>>>>> Stashed changes
 		(lib_id "power:GND")
 		(at 96.52 110.49 0)
 		(unit 1)
@@ -10037,7 +9785,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 378.46 96.52 270)
+		(at 378.46 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10045,7 +9793,7 @@
 		(dnp no)
 		(uuid "6f87b2e1-285f-4176-b076-11247b4ca8ed")
 		(property "Reference" "M1"
-			(at 377.19 89.154 90)
+			(at 377.19 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10053,7 +9801,7 @@
 			)
 		)
 		(property "Value" "Motor_DC"
-			(at 377.19 91.694 90)
+			(at 377.19 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10061,7 +9809,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm"
-			(at 376.174 96.52 0)
+			(at 376.174 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10070,7 +9818,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.amazon.com/dp/B01480X6IK?psc=1&smid=A1THAZDOWP300U&ref_=chk_typ_imgToDp"
-			(at 376.174 96.52 0)
+			(at 376.174 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10079,7 +9827,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 378.46 96.52 0)
+			(at 378.46 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10088,7 +9836,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 378.46 96.52 90)
+			(at 378.46 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10097,7 +9845,7 @@
 			)
 		)
 		(property "Unit Price" "6.88"
-			(at 378.46 96.52 90)
+			(at 378.46 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10539,8 +10287,6 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
-=======
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 350.52 80.01 0)
 		(unit 1)
@@ -10613,9 +10359,8 @@
 		)
 	)
 	(symbol
->>>>>>> Stashed changes
 		(lib_id "Motor:Motor_DC")
-		(at 378.46 135.89 270)
+		(at 378.46 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10623,7 +10368,7 @@
 		(dnp no)
 		(uuid "7fd42fa0-44b4-4ace-a3f9-d8bd83ad7481")
 		(property "Reference" "M2"
-			(at 377.19 128.524 90)
+			(at 377.19 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10631,7 +10376,7 @@
 			)
 		)
 		(property "Value" "Motor_DC"
-			(at 377.19 131.064 90)
+			(at 377.19 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10639,7 +10384,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm"
-			(at 376.174 135.89 0)
+			(at 376.174 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10648,7 +10393,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.amazon.com/dp/B01480X6IK?psc=1&smid=A1THAZDOWP300U&ref_=chk_typ_imgToDp"
-			(at 376.174 135.89 0)
+			(at 376.174 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10657,7 +10402,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 378.46 135.89 0)
+			(at 378.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10666,7 +10411,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 378.46 135.89 90)
+			(at 378.46 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10675,7 +10420,7 @@
 			)
 		)
 		(property "Unit Price" "6.88"
-			(at 378.46 135.89 90)
+			(at 378.46 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10872,93 +10617,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 377.19 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b738852-7229-4dc0-9980-8e2fb313431b")
-		(property "Reference" "C1"
-			(at 377.19 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1 uF"
-			(at 377.19 79.756 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 381 82.8548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 377.19 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 377.19 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
-			(at 377.19 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.08"
-			(at 377.19 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8e8f513-3f5b-4a50-ab96-89cb931fb341")
-		)
-		(pin "2"
-			(uuid "1bb16b7b-f234-408b-a8ce-04250fd0efcf")
-		)
-		(instances
-			(project ""
-				(path "/bff9adb3-db9a-4aad-9d41-009c862a6453"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 129.54 158.75 0)
+		(at 130.81 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10966,7 +10626,7 @@
 		(dnp no)
 		(uuid "944d5356-bcdc-4685-a483-56d0d5770186")
 		(property "Reference" "#PWR014"
-			(at 129.54 165.1 0)
+			(at 130.81 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10975,7 +10635,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 162.56 0)
+			(at 130.81 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10983,7 +10643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 158.75 0)
+			(at 130.81 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10992,7 +10652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 158.75 0)
+			(at 130.81 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11001,7 +10661,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 158.75 0)
+			(at 130.81 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11023,7 +10683,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 100.33 156.21 0)
+		(at 101.6 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11031,7 +10691,7 @@
 		(dnp no)
 		(uuid "9480ea79-0b64-42cf-b999-4cf90b1a1d3e")
 		(property "Reference" "M6"
-			(at 92.456 159.258 0)
+			(at 93.726 159.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,7 +10699,7 @@
 			)
 		)
 		(property "Value" "Motor_DC"
-			(at 92.456 156.718 0)
+			(at 93.726 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11047,7 +10707,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm"
-			(at 100.33 158.496 0)
+			(at 101.6 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11056,7 +10716,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.amazon.com/Electromagnetic-actuator-Magnetic-Ornithopter-Airplanes/dp/B075KKWM8G"
-			(at 100.33 158.496 0)
+			(at 101.6 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11065,7 +10725,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 100.33 156.21 0)
+			(at 101.6 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11074,7 +10734,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 100.33 156.21 0)
+			(at 101.6 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11083,7 +10743,7 @@
 			)
 		)
 		(property "Unit Price" "6"
-			(at 100.33 156.21 0)
+			(at 101.6 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11195,7 +10855,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 119.38 140.97 0)
+		(at 120.65 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11203,7 +10863,7 @@
 		(dnp no)
 		(uuid "987e0f60-0428-4daa-bc68-6d1c1ed05808")
 		(property "Reference" "M3"
-			(at 111.506 144.018 0)
+			(at 112.776 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11211,7 +10871,7 @@
 			)
 		)
 		(property "Value" "Motor_DC"
-			(at 111.506 141.478 0)
+			(at 112.776 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11219,7 +10879,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm"
-			(at 119.38 143.256 0)
+			(at 120.65 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11228,7 +10888,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.amazon.com/Electromagnetic-actuator-Magnetic-Ornithopter-Airplanes/dp/B075KKWM8G"
-			(at 119.38 143.256 0)
+			(at 120.65 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11237,7 +10897,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 119.38 140.97 0)
+			(at 120.65 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11246,7 +10906,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 119.38 140.97 0)
+			(at 120.65 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11255,7 +10915,7 @@
 			)
 		)
 		(property "Unit Price" "6"
-			(at 119.38 140.97 0)
+			(at 120.65 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11529,123 +11189,6 @@
 			(project ""
 				(path "/bff9adb3-db9a-4aad-9d41-009c862a6453"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 350.52 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b45756c0-392c-48c1-bf1a-862efce989cd")
-		(property "Reference" "Q1"
-			(at 332.994 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLML2502TRPbF"
-			(at 332.994 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
-			(at 355.6 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlml2502-datasheet-en.pdf"
-			(at 350.52 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 350.52 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 350.52 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 350.52 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 350.52 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" ""
-			(at 350.52 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.14"
-			(at 350.52 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19089ad7-d331-4b78-83f8-fb2c1f230b24")
-		)
-		(pin "3"
-			(uuid "967cf5d2-2e03-4a3d-997b-e90abf5ad472")
-		)
-		(pin "2"
-			(uuid "7ebb899d-4c67-43ad-99c1-1d0d54cb2890")
-		)
-		(instances
-			(project ""
-				(path "/bff9adb3-db9a-4aad-9d41-009c862a6453"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -11993,7 +11536,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 100.33 140.97 0)
+		(at 101.6 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12001,7 +11544,7 @@
 		(dnp no)
 		(uuid "ba8beda9-f818-4661-8bda-7cff7fc1f366")
 		(property "Reference" "M5"
-			(at 92.456 144.018 0)
+			(at 93.726 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12009,7 +11552,7 @@
 			)
 		)
 		(property "Value" "Motor_DC"
-			(at 92.456 141.478 0)
+			(at 93.726 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12017,7 +11560,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm"
-			(at 100.33 143.256 0)
+			(at 101.6 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12026,7 +11569,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.amazon.com/Electromagnetic-actuator-Magnetic-Ornithopter-Airplanes/dp/B075KKWM8G"
-			(at 100.33 143.256 0)
+			(at 101.6 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12035,7 +11578,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 100.33 140.97 0)
+			(at 101.6 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12044,7 +11587,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 100.33 140.97 0)
+			(at 101.6 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12053,7 +11596,7 @@
 			)
 		)
 		(property "Unit Price" "6"
-			(at 100.33 140.97 0)
+			(at 101.6 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12244,123 +11787,6 @@
 			(project "ME461_New"
 				(path "/bff9adb3-db9a-4aad-9d41-009c862a6453"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 350.52 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bbd1fa6a-7eaf-4cb2-b38b-1039e46138a9")
-		(property "Reference" "Q2"
-			(at 333.248 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLML2502TRPbF"
-			(at 333.248 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
-			(at 355.6 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlml2502-datasheet-en.pdf"
-			(at 350.52 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 350.52 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 350.52 136.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 350.52 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 350.52 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" ""
-			(at 350.52 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.14"
-			(at 350.52 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8e32a637-ce1c-4946-8bd5-8c94d84fab8e")
-		)
-		(pin "1"
-			(uuid "dfe307e1-e789-4de8-922d-a8a33b834ca6")
-		)
-		(pin "2"
-			(uuid "283a754d-808f-46ab-93c0-1510e0193b4d")
-		)
-		(instances
-			(project ""
-				(path "/bff9adb3-db9a-4aad-9d41-009c862a6453"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
