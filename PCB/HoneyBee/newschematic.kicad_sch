@@ -12845,7 +12845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://gct.co/files/specs/1.00mm-header-spec.pdf"
 			(at 262.89 160.02 0)
 			(effects
 				(font
@@ -12873,6 +12873,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 262.89 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/gct/BC020-05-A-0200-0300-L-G/12549948?s=N4IgTCBcDa4AwHYDMBaAQgYTmOK4FYUBBPHXOJOXAGRQHEUA5AERAF0BfIA"
 			(at 262.89 160.02 0)
 			(effects
 				(font

@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.6"
     },
-    "CreationDate": "2026-03-25T12:21:53-04:00"
+    "CreationDate": "2026-03-25T12:31:12-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -41,57 +41,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "newschematic-Top.gbr",
+      "Path": "newschematic-Top.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "newschematic-GND.gbr",
+      "Path": "newschematic-GND.g1",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "newschematic-PWR.gbr",
+      "Path": "newschematic-PWR.g2",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "newschematic-Bottom.gbr",
+      "Path": "newschematic-Bottom.gbl",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "newschematic-F_Paste.gbr",
+      "Path": "newschematic-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "newschematic-B_Paste.gbr",
+      "Path": "newschematic-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "newschematic-F_Silkscreen.gbr",
+      "Path": "newschematic-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "newschematic-B_Silkscreen.gbr",
+      "Path": "newschematic-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "newschematic-F_Mask.gbr",
+      "Path": "newschematic-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "newschematic-B_Mask.gbr",
+      "Path": "newschematic-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "newschematic-Edge_Cuts.gbr",
+      "Path": "newschematic-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
