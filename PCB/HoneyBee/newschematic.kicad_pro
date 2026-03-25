@@ -553,7 +553,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -601,7 +601,7 @@
           "group_by": false,
           "label": "Unit Price",
           "name": "Unit Price",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
