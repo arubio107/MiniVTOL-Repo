@@ -7168,7 +7168,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
-			(at -2.500001 -1.1 0)
+			(at -2.500001 -1.2 0)
 			(layer "B.SilkS")
 			(uuid "8e9e8f25-3f6b-4baf-be2f-a035b13626cd")
 			(effects
@@ -8045,7 +8045,7 @@
 		(descr "LGA-14 Bosch https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000-07.pdf")
 		(tags "lga land grid array")
 		(property "Reference" "U6"
-			(at 1.369263 -14.308903 315)
+			(at -2.399138 -2.593745 180)
 			(layer "B.SilkS")
 			(uuid "213bf9ba-656e-4f4d-8c54-0a43c035aaea")
 			(effects
@@ -9527,7 +9527,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C17"
-			(at 0.1 -1.2 0)
+			(at 2.9 0.1 0)
 			(layer "B.SilkS")
 			(uuid "a9d95faf-0ea2-46b9-96e2-28cda02ae8dd")
 			(effects
@@ -10307,7 +10307,7 @@
 		(descr "Through hole straight pin header, 1x05, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 1.00mm single row")
 		(property "Reference" "J3"
-			(at -12.292791 24.303556 0)
+			(at -1.767767 1.757716 0)
 			(layer "B.SilkS")
 			(uuid "d02a8ee7-a121-408a-a3fb-10bb80308f15")
 			(effects
