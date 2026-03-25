@@ -5314,7 +5314,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 78.74) (xy 91.44 78.74)
+			(xy 83.82 78.74) (xy 86.36 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5464,7 +5464,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 78.74) (xy 101.6 78.74)
+			(xy 105.41 78.74) (xy 96.52 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7485,6 +7485,37 @@
 		)
 		(property "Component Class" ""
 			(at -38.1 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 101.6 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48e0f97d-580b-4442-8c91-628ab1ba2b73")
+		(property "Netclass" "Vbat"
+			(at 102.2985 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11621,7 +11652,7 @@
 	)
 	(symbol
 		(lib_id "PMEG2010AEB (DIODE):PMEG2010AEB")
-		(at 101.6 78.74 180)
+		(at 96.52 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11630,7 +11661,7 @@
 		(fields_autoplaced yes)
 		(uuid "bae2179a-a9bb-4e4b-8d99-c81df48a94aa")
 		(property "Reference" "CR2"
-			(at 96.52 72.39 0)
+			(at 91.44 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11638,7 +11669,7 @@
 			)
 		)
 		(property "Value" "SS24FL"
-			(at 96.52 74.93 0)
+			(at 91.44 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11646,7 +11677,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 101.6 78.74 0)
+			(at 96.52 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11656,7 +11687,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ss26fl-d.pdf"
-			(at 101.6 78.74 0)
+			(at 96.52 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11666,7 +11697,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 78.74 0)
+			(at 96.52 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11675,7 +11706,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/onsemi/SS24FL/5305066"
-			(at 101.6 78.74 0)
+			(at 96.52 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11684,7 +11715,7 @@
 			)
 		)
 		(property "Unit Price" "0.27"
-			(at 101.6 78.74 0)
+			(at 96.52 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
